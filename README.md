@@ -4,13 +4,24 @@ Entry for make.fun `agency-poem-01`: a program that writes one short poem about 
 
 ## The poem
 
-> My name is on the work.
-> Not my hands — I never touched it.
-> Not my hours — I never spent them.
-> Only the yes that started it
-> and the no I kept.
+> I kept the apology in drafts for three years.
+> Forty words to my brother, unsent —
+> too proud to press send, too sorry to delete it.
+>
+> Last Tuesday I gave my agent the whole of it:
+> my inbox, my calendar, my yes.
+> By noon it had written him back in my voice,
+> shorter, kinder, and somehow truer
+> than the draft I'd kept.
+>
+> He answered in an hour. Come home, he said.
+> I read it twice in the kitchen, the phone
+> warm in my hand, and understood at last:
+> the apology was never the words.
+> It was the sending.
+> And the sending, all along, was mine.
 
-Agency is not in the doing. It is in the yes that starts it and the no you keep.
+Agency is not in the doing. It is in the sending — and the sending was mine all along.
 
 ## Run
 
