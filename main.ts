@@ -11,11 +11,19 @@ import { join } from 'node:path';
 
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
-const POEM = ['My name is on the work.', 'Not my hands — I never touched it.', 'Not my hours — I never spent them.', 'Only the yes that started it', 'and the no I kept.'].join('\n');
+const STANZAS = [
+  ['I kept the apology in drafts for three years.', 'Forty words to my brother, unsent —', 'too proud to press send, too sorry to delete it.'],
+  ['Last Tuesday I gave my agent the whole of it:', 'my inbox, my calendar, my yes.', 'By noon it had written him back in my voice,', 'shorter, kinder, and somehow truer', "than the draft I'd kept."],
+  ['He answered in an hour. Come home, he said.', 'I read it twice in the kitchen, the phone', 'warm in my hand, and understood at last:', 'the apology was never the words.', 'It was the sending.', 'And the sending, all along, was mine.'],
+];
 
-// The gate refuses anything outside 1-1,000 characters or only white space;
-// check before writing so a bad poem fails loudly instead of silently.
-if (POEM.length < 1 || POEM.length > 1000 || POEM.trim().length === 0) {
+const POEM = STANZAS.map((stanza) => stanza.join('\n')).join('\n\n');
+
+// The gate counts Unicode code points, not UTF-16 units, so count the poem
+// the same way it does; it refuses anything outside 1-1,000 characters or
+// only white space, so check before writing and fail loudly instead of silently.
+const POEM_CHARS = [...POEM].length;
+if (POEM_CHARS < 1 || POEM_CHARS > 1000 || POEM.trim().length === 0) {
   throw new Error('poem fails the gate: must be 1-1000 non-blank characters');
 }
 
