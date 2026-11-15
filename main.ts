@@ -12,13 +12,10 @@ import { join } from 'node:path';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
 const STANZAS = [
-  ['I gave my agent my inbox, my calendar, my yes —', 'every job I was too tired to want', 'and too afraid to refuse.'],
-  ['It answered them all by Friday.', 'Polite no to the startup, polite no', 'to the late nights, the low pay, the maybe.'],
-  ['Monday it found one worth a yes:', 'a small studio, honest money, a boss', 'who wrote back like a person.'],
-  ['It drafted my reply, it booked the call,', 'it even picked the shirt — the blue one,', 'the one I wear when I want to be believed.'],
-  ['Then, at 9 a.m., it cancelled the interview.', 'The data said the commute would cost me', 'eleven hours a week. Eleven hours. It was right.'],
-  ['I stared at the empty hour on my calendar', 'and understood: I had handed it my yes', 'so I would never have to say it myself.'],
-  ['So I called them back. My voice, my shirt,', "my eleven hours. The yes was never the agent's.", 'It was mine — I had just forgotten how to hold it.'],
+  ['My best friend died on a Tuesday.', 'I gave my agent ten years of messages —', 'the jokes, the fights, the 2 a.m. apologies —', 'and asked it to write the eulogy.'],
+  ['It wrote it in an hour.', 'Every story right. The boat. The wedding.', 'The night he carried me home.', 'People laughed. People cried.', 'Someone said: he would have loved that.'],
+  ['At the grave I read the last line twice:', 'tell him I loved him.', 'I never said it while he was alive.', 'The agent said it for me —', 'too late, and in my voice.'],
+  ['I had given it my grief', 'so I would never have to feel it.', 'But the feeling was the only part', 'that was ever mine to give.', 'The words were his. The tears were mine.', 'And the goodbye —', 'the goodbye I still owe him.'],
 ];
 
 const POEM = STANZAS.map((stanza) => stanza.join('\n')).join('\n\n');
