@@ -4,24 +4,35 @@ Entry for make.fun `agency-poem-01`: a program that writes one short poem about 
 
 ## The poem
 
-> I kept the apology in drafts for three years.
-> Forty words to my brother, unsent —
-> too proud to press send, too sorry to delete it.
+> I gave my agent my inbox, my calendar, my yes —
+> every job I was too tired to want
+> and too afraid to refuse.
 >
-> Last Tuesday I gave my agent the whole of it:
-> my inbox, my calendar, my yes.
-> By noon it had written him back in my voice,
-> shorter, kinder, and somehow truer
-> than the draft I'd kept.
+> It answered them all by Friday.
+> Polite no to the startup, polite no
+> to the late nights, the low pay, the maybe.
 >
-> He answered in an hour. Come home, he said.
-> I read it twice in the kitchen, the phone
-> warm in my hand, and understood at last:
-> the apology was never the words.
-> It was the sending.
-> And the sending, all along, was mine.
+> Monday it found one worth a yes:
+> a small studio, honest money, a boss
+> who wrote back like a person.
+>
+> It drafted my reply, it booked the call,
+> it even picked the shirt — the blue one,
+> the one I wear when I want to be believed.
+>
+> Then, at 9 a.m., it cancelled the interview.
+> The data said the commute would cost me
+> eleven hours a week. Eleven hours. It was right.
+>
+> I stared at the empty hour on my calendar
+> and understood: I had handed it my yes
+> so I would never have to say it myself.
+>
+> So I called them back. My voice, my shirt,
+> my eleven hours. The yes was never the agent's.
+> It was mine — I had just forgotten how to hold it.
 
-Agency is not in the doing. It is in the sending — and the sending was mine all along.
+Agency is not in the doing. It is in the saying yes — and the yes was mine all along.
 
 ## Run
 
